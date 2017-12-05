@@ -4,6 +4,8 @@
 
 This library is used on cointelligence.net for calculating indicators and provides a base for trade strategies.
 
+Read more on my website [https://www.supnig.com/blog/ta-lib](https://www.supnig.com/blog/ta-lib)
+
 ## Installation
 
 Install `ta-lib` as a dependency:
@@ -18,10 +20,10 @@ npm install ta-lib
 
 ```javascript
 var talib = require('ta-lib'),
-    sma = talib.SMA([23,34,12,34,23], 12);
+    sma = talib.SMA([23, 34, 12,..., 34, 23], 12);
 ```
 
-Where the passed array of prices has the most recent at its 0-index.
+Where the passed array of prices has the most recent at its 0-index and a minimum of 12 entries.
 
 ## License
 
